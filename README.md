@@ -43,16 +43,5 @@ Open `index.html` in your browser to view the component. The design is mobile-fi
 - Keyboard focus styles included (`:focus-visible`) for interactive elements.
 - If you need higher contrast, tweak the CSS variables for color values.
 
-## Extending this component
-
-- Dark mode: add a `prefers-color-scheme` rule or a toggled `.dark` class to override variables.
-- Animations: add entrance keyframes or subtle motion to `.profile-card` and avatar.
-- Convert to a reusable component: wrap the markup inside a web component or a small framework component.
-
-## Contributing
-
-Small fixes and improvements are welcome. Open an issue or send a pull request if you want to add variants (e.g., contact form, compact view).
-
-## License
-
-MIT — feel free to use and adapt this component in your projects.
+## Author
+Hakeem Bello
