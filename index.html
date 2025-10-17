@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <article data-testid="test-profile-card" class="profile-card">
+      <header>
+        <h2 data-testid="test-user-name">Bello Hakeem</h2>
+      </header>
+
+      <figure>
+        <img
+          src="https://i.pravatar.cc/150?img=3"
+          alt="Profile picture of Bello Hakeem"
+          data-testid="test-user-avatar"
+        />
+      </figure>
+
+      <div class="user-description">
+        <p data-testid="test-user-bio">
+          A passionate frontend developer from Lagos who loves turning ideas
+          into visually engaging digital experiences.
+        </p>
+
+        <p>Current time (ms): <span data-testid="test-user-time"></span></p>
+
+        <nav aria-label="Social Links">
+          <ul data-testid="test-user-social-links" class="social-links">
+            <li>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-twitter"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <section aria-labelledby="hobbies-heading">
+          <h3 id="hobbies-heading">Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Coding</li>
+            <li>Playing Chess</li>
+            <li>Reading Tech Blogs</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="dislikes-heading">
+          <h3 id="dislikes-heading">Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Procrastination</li>
+            <li>Slow internet</li>
+            <li>Cluttered code</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
+</html>
