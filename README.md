@@ -5,8 +5,7 @@ This project was developed as part of the Frontend Wizards Cohort — Stage 0 & 
 
 ## 🚀 Live Demo
 
-- 🔗 Live Site: https://your-live-link-here.netlify.app
-- 💻 GitHub Repository: https://github.com/your-username/frontend-wizards-profile
+- 🔗 Live Site: https://hackhimprofilecard.netlify.app/
 
 ## 🧭 Table of Contents
 
